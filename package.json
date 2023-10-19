@@ -1,0 +1,22 @@
+{
+  "name": "api---nasa",
+  "version": "1.0.0",
+  "description": "Nasa API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "apollo-server-express": "^3.11.1",
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
