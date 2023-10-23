@@ -1,0 +1,7 @@
+<%- include('./partials/header') %>
+
+<div class="pictureoftheday">
+    <h2 class="pictureoftheday_title"><%= APODdata.title %></h2>
+    <img class="pictureoftheday_img" id="image" src="<%= APODdata.url %>" alt="NASA Image of the Day" />
+    <p class="pictureoftheday_explanation"><%= APODdata.explanation %></p>
+</div>
